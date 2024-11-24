@@ -3,7 +3,7 @@ from PyQt6.QtCore import Qt
 import MySQLdb as mdb
 from PyQt6.QtWidgets import QAbstractItemView
 
-
+#сделать полноценные настройки
 def dbret():
     try:
         db = mdb.connect('localhost', 'root', '2173', 'mydb')

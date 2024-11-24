@@ -3,7 +3,6 @@ from PyQt6 import QtWidgets, QtGui
 from PyQt6.QtWidgets import QMainWindow, QMessageBox
 from about1 import aboutDialog
 from addDialog import addDialog
-import qdarktheme
 import _thread
 import MySQLdb as mdb
 
